@@ -2,7 +2,7 @@
 
 ## Overview
 
-Esse projeto tem como objetivo ser um assistente inteligente que irá auxiliar o usuário na busca do seu carro dos sonhos. O projeto utiliza as tecnologias da T3 Stack, mais precisamente: Next.js, TypeScript e Tailwind CSS. Além disso, foi utilizado a Vercel AI SDK para poder integrar com um LLM e gerar uma experiência mais fluída com o stream text, por exemplo. Por fim, foi utilizado conceitos de RAG e Vector Search, para que o agente busque o carro que mais se encaixa na busca do usuário, além de retornar outras opções semelhantes que também possam fazer sentido para o usuário.
+Esse projeto tem como objetivo ser um assistente inteligente que irá auxiliar o usuário na busca do seu carro dos sonhos. O projeto utiliza as tecnologias da T3 Stack, mais precisamente: Next.js, TypeScript e Tailwind CSS. Além disso, foi utilizado a Vercel AI SDK para poder integrar com um LLM e gerar uma experiência mais fluida com o stream text, por exemplo. Por fim, foi utilizado conceitos de RAG e Vector Search, para que o agente busque o carro que mais se encaixa na busca do usuário, além de retornar outras opções semelhantes que também possam fazer sentido para o usuário.
 
 Acesse agora: https://tech-challenge-rho.vercel.app/
 
