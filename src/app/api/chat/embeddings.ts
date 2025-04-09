@@ -18,7 +18,7 @@ export async function setupDatabase() {
         await sql`CREATE EXTENSION IF NOT EXISTS vector;`;
 
         await sql`
-      CREATE TABLE IF NOT EXISTS cars (
+        CREATE TABLE IF NOT EXISTS cars (
         id SERIAL PRIMARY KEY,
         name TEXT,
         model TEXT,

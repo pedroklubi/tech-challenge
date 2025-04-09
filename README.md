@@ -1,31 +1,35 @@
-# Create T3 App
+# Tech Challenge - Klubi
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Overview
 
-## What's next? How do I make an app with this?
+Esse projeto tem como objetivo ser um assistente inteligente que irá auxiliar o usuário na busca do seu carro dos sonhos. O projeto utiliza as tecnologias da T3 Stack, mais precisamente: Next.js, TypeScript e Tailwind CSS. Além disso, foi utilizado a Vercel AI SDK para poder integrar com um LLM e gerar uma experiência mais fluída com o stream text, por exemplo. Por fim, foi utilizado conceitos de RAG e Vector Search, para que o agente busque o carro que mais se encaixa na busca do usuário, além de retornar outras opções semelhantes que também possam fazer sentido para o usuário.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Acesse agora: https://tech-challenge-rho.vercel.app/
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Plano de Negócios
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### Modelo de Negócios
+Um modelo B2B2C, onde concessionárias e revendedores de carros pagariam para ter seus veículos listados na plataforma. Também seria possível oferecer um modelo de comissão por vendas realizadas através da plataforma.
 
-## Learn More
+### Estratégia de Aquisição de Usuários
+- Parcerias com concessionárias e revendedores de carros
+- Marketing de conteúdo sobre carros e dicas de compra
+- Anúncios direcionados em redes sociais para pessoas interessadas em comprar carros
+- SEO otimizado para termos relacionados à compra de veículos
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Estimativa de CAC
+Aproximadamente R$50-100 por usuário ativo, considerando os custos de marketing digital, parcerias e desenvolvimento contínuo da plataforma.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### LTV e Maximização
+- LTV estimado: R$300-500 por usuário
+- Maximização através de:
+  - Recomendações personalizadas que aumentam a taxa de conversão
+  - Cross-selling de serviços relacionados (consórcio, seguro)
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Monetização Viável
+- Comissão por venda realizada através da plataforma
+- Modelo de assinatura premium para concessionárias com destaque nos resultados
 
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
-# tech-challenge
-# tech-challenge
+### Estratégias de Retenção
+- Notificações sobre novos carros que correspondam às preferências do usuário
+- Conteúdo educativo sobre manutenção e cuidados com o veículo adquirido
